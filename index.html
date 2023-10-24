@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+<head>
+    <title>In-Line Security</title>
+</head>
+
+<body>
+    <img class="logo" src="logo2.jpeg" width="230" height="260">
+    <h1 class="name">In-line Security</h1>
+    <h2>Security of the future!</h2>
+    <div class="w3-content w3-display-container">
+
+   <img class="mySlides" src="pic1.jpeg" style="width: 45%">
+  <img class="mySlides" src="pic5.jpeg" style="width: 50%;">
+  <div class="wrapper">
+    <!--Top menu -->
+    <div class="sidebar">
+       <!--profile image & text-->
+        <!--menu item-->
+        <div class="profile">
+            <img class="pfp" src="logo3.jpeg" alt="profile_picture" >
+            <h3>In-Line Security</h3>
+            <ul>
+    
+                <li>
+                <a href="">
+                                                    
+                 <span class="icon"> <i class='far fa-handshake' style='font-size: 20px; color: red;'></i> </span>
+                 <span class="">services</span>
+                </a>
+                    </li>
+                    <li>
+                <a href="">
+                    <span class="icon"><i class='fas fa-shield-alt' style='font-size:20px; color: red;'></i></span>
+                     <span class="item">careers</span>
+                </a>
+                    </li>
+                    <li>
+                     <!-- contact tab-->
+                     <a href="">
+                    <span class="icon"><i class="fas fa-pen" style="font-size: 20px; color: red;"></i></span>
+                    <span class="item">Inquiries</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            
+                                </div>
+                                <div class="section">
+                                    <div class="top_navbar">
+                                        <div class="hamburger">
+                                            <a href="#" class="ham_line">
+                                                <i class="fas fa-bars"></i>
+                                            </a>
+                                            <div class="container">
+                                         
+                                         <br>
+                                         <hr><br>
+                                         
+                    </section>
+                </head>
+                <body>
+                    
+                </body>
+                <script>
+                    var hamburger = document.querySelector(".hamburger");
+                      hamburger.addEventListener("click", function(){
+                          document.querySelector("body").classList.toggle("active");
+                      })
+                      var slideIndex = 0;
+                  carousel();
+                  
+                  function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1}
+                    x[slideIndex-1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                  }
+                    </script>
+</section>
+    </div>
+</body>
+</html>
