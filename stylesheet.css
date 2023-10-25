@@ -145,7 +145,7 @@ img {
   position: absolute;
   border: 5px solid black;
   width: 200px;
-  height: 400px;
+  height: 325px;
   margin-left: 35%;
   border-width: 10px; 
   
@@ -201,7 +201,7 @@ img {
    top: 0;
    left: 0;
    width: 35%;
-   height: 600px;
+   height: 1000px;
    padding: 20px 0;
    transition: all 0.5s ease;
  }
