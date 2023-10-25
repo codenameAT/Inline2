@@ -142,10 +142,10 @@ img {
     text-align: center;
   font-size: small;
   font-family:'Arial Narrow Bold';
-  position: absolute;
+  position: fixed;
   border: 5px solid black;
   width: 200px;
-  height: 428px;
+  height: 400px;
   margin-left: 35%;
   border-width: 10px; 
   
