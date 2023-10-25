@@ -14,11 +14,24 @@
 <body>
     <img class="logo" src="logo2.jpeg" width="230" height="260">
     <h1 class="name">In-line Security</h1>
-    <h2>Security of the future!</h2>
+    <h2> Security of the future!</h2>
     <div class="w3-content w3-display-container">
 
-   <img class="mySlides" src="pic1.jpeg" style="width: 45%">
-  <img class="mySlides" src="pic5.jpeg" style="width: 50%;">
+   <img class="mySlides" src="pic1.jpeg" style="width: 35%">
+  <img class="mySlides" src="pic5.jpeg" style="width: 50%">
+  <img class="mySlides" src="pic3.jpeg" style="width: 35%">
+  <img class="mySlides" src="pic4.jpeg" style="width: 20%">
+  <img class="mySlides" src="pic9.jpeg" style="width: 20%">
+  <img class="mySlides" src="pic10.jpeg" style="width: 20%">
+<hr>
+    <article>
+    <h1 class="name"> Our Mission</h1>
+    <p class="mission">With the rise of crime and violence in the city and no solution in sight, who can we turn to? Our police force is understaffed, causing delays in the midst of an emergency where response time is critical.
+        <br><br> However, with In-Line Security, we offer a personal enforcement connection, that will aid in the first step in handling an emergency, ensuring that your best interest is always put first.
+        <br><br>
+         Allow  In-Line  Security to make those crucial decisions concerning the safety of all those involved during those hectic moments; make crooks think twice about entering your establishment or putting you in harms way.
+    </p><
+</article>
   <div class="wrapper">
     <!--Top menu -->
     <div class="sidebar">
@@ -27,68 +40,66 @@
         <div class="profile">
             <img class="pfp" src="logo3.jpeg" alt="profile_picture" >
             <h3>In-Line Security</h3>
-            <ul>
-    
-                <li>
-                <a href="">
+            <hr>
+    <ul>
+        <li>
+            <a href="index.html">
+                <span class="icon"> <i class="fa-solid fa-house-chimney" style=" font-size: 20px; color: #ff0000;"></i></span>
+                <span>home</span>
+            </a>
+        </li>
+        <li>
+        <a href="">
                                                     
-                 <span class="icon"> <i class='far fa-handshake' style='font-size: 20px; color: red;'></i> </span>
-                 <span class="">services</span>
-                </a>
-                    </li>
-                    <li>
-                <a href="">
-                    <span class="icon"><i class='fas fa-shield-alt' style='font-size:20px; color: red;'></i></span>
-                     <span class="item">careers</span>
-                </a>
-                    </li>
-                    <li>
-                     <!-- contact tab-->
-                     <a href="">
-                    <span class="icon"><i class="fas fa-pen" style="font-size: 20px; color: red;"></i></span>
-                    <span class="item">Inquiries</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+        <span class="icon"> <i class='far fa-handshake' style='font-size: 20px; color: red;'></i> </span>
+         <span class="">services</span>
+        </a>
+        </li>
+        <li>
+        <a href="">
+         <span class="icon"><i class='fas fa-shield-alt' style='font-size:20px; color: red;'></i></span>
+        <span class="item">careers</span>
+        </a>
+         </li>
+        <li>
+         <!-- contact tab-->
+        <a href="">
+         <span class="icon"><i class="fas fa-pen" style="font-size: 20px; color: red;"></i></span>
+         <span class="item">Inquiries</span>
+         </a>
+        </li>
+    </ul>
+        </div>
                             
-                                </div>
-                                <div class="section">
-                                    <div class="top_navbar">
-                                        <div class="hamburger">
-                                            <a href="#" class="ham_line">
-                                                <i class="fas fa-bars"></i>
-                                            </a>
-                                            <div class="container">
-                                         
-                                         <br>
-                                         <hr><br>
-                                         
-                    </section>
-                </head>
-                <body>
-                    
-                </body>
-                <script>
-                    var hamburger = document.querySelector(".hamburger");
-                      hamburger.addEventListener("click", function(){
-                          document.querySelector("body").classList.toggle("active");
+        <div class="section">
+        <div class="top_navbar">
+        <div class="hamburger">
+        <a href="#" class="ham_line">
+                                        
+        </a>
+         <div class="container">                   
+        </section>
+    </body>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function(){
+          document.querySelector("body").classList.toggle("active");
                       })
-                      var slideIndex = 0;
-                  carousel();
+        var slideIndex = 0;
+            carousel();
                   
-                  function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                      x[i].style.display = "none";
+            function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
                     }
-                    slideIndex++;
-                    if (slideIndex > x.length) {slideIndex = 1}
-                    x[slideIndex-1].style.display = "block";
-                    setTimeout(carousel, 2000); // Change image every 2 seconds
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+             setTimeout(carousel, 4000); // Change image every 4 seconds
                   }
-                    </script>
+     </script>
 </section>
     </div>
 </body>
