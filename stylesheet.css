@@ -9,7 +9,7 @@ body {
   position: absolute;
   border: 5px solid black;
   width: 400px;
-  margin-left: 540px;
+  margin-left: 560px;
   border-width: 10px;
   
 }
@@ -113,10 +113,30 @@ img {
 
  /* Mobile CSS */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1075px) {
   body {
     background-color: rgb(255, 255, 255);
   }
+
+  .pic1 {
+    width: 35%; margin-left: 48%;
+  }
+
+ .pic3 {
+  width: 35%; margin-left: 48%;
+ }
+
+ .pic4 {
+  width: 20%; margin-left: 55%;
+ }
+
+ .pic5 {
+  width: 20%; margin-left: 55%;
+ }
+
+ .pic6 {
+  width: 20%; margin-left: 55%;
+ }
 
   .mission {
     text-align: center;
@@ -125,8 +145,8 @@ img {
   position: absolute;
   border: 5px solid black;
   width: 200px;
-  height: auto;
-  margin-left: 55%;
+  height: 428px;
+  margin-left: 35%;
   border-width: 10px; 
   
 }
