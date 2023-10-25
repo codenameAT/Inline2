@@ -9,7 +9,7 @@ body {
   position: absolute;
   border: 5px solid black;
   width: 400px;
-  margin-left: 560px;
+  margin-left: 555px;
   border-width: 10px;
   
 }
@@ -145,7 +145,7 @@ img {
   position: absolute;
   border: 5px solid black;
   width: 200px;
-  height: 400px;
+  height: 428px;
   margin-left: 35%;
   border-width: 10px; 
   
@@ -197,7 +197,7 @@ img {
 
 .wrapper .sidebar {
    background: rgb(2, 0, 15);
-   position: scroll;
+   position: fixed;
    top: 0;
    left: 0;
    width: 35%;
